@@ -1,0 +1,25 @@
+:root {
+    --clr_primary: #303634;
+    --clr_hover: #4e5552;
+    --clr_light-gray: #dddddd;
+    --bg_clr-gray: #CDCEC9;
+    --bg_clr-darker-gray: #bdbeb9;
+    --bg_clr-red: #BB515A;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: var(--clr_primary);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
