@@ -28,6 +28,32 @@ body {
     padding: 0;
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: var(--clr_hover);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: var(--bg_clr-gray);
+    background: var(--clr_primary);
+}
+
+.btn-primary:hover {
+    color: var(--bg_clr-gray);
+    background-color: var(--clr_hover);
+}
+
 .padding-sides {
     padding: 0 15%;
 }
@@ -45,8 +71,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
-    width: 100%;
 }
 
 .nav__logo {
@@ -71,10 +95,45 @@ nav {
     font-size: 1.3rem;
 }
 
+.section-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.section-hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.section-hero__heading {
+    font-size: 5rem;
+    margin: 1rem 0;
+    line-height: 5rem;
+}
+
+.section-hero__image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.nav__container,
+.section-hero__container {
+    max-width: 1400px;
+    width: 100%;
+}
+
 @media (max-width: 1600px) {
     .nav__container {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+    }
+
+    .section-hero__container {
+        flex-direction: column;
+        text-align: center;
     }
 }
