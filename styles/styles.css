@@ -167,3 +167,17 @@ nav {
     gap: 1rem;
     padding: 2rem 2rem;
 }
+
+.section-gallery__images-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-gallery__image {
+    width: auto;
+    height: 300px;
+    box-shadow: 10px 10px 56px -14px rgba(48, 54, 52,0.7);
+    border-radius: .5rem;
+}
