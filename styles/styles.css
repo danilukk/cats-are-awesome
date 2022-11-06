@@ -163,6 +163,12 @@ nav {
     line-height: 5rem;
 }
 
+@media (max-width: 500px) {
+    .section-hero__heading {
+        font-size: 4rem;
+    }
+}
+
 .section-hero__image {
     width: 100%;
     max-width: 500px;
