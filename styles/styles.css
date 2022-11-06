@@ -11,6 +11,10 @@
     background-color: var(--bg_clr-gray);
 }
 
+.bg-darker-gray {
+    background-color: var(--bg_clr-darker-gray);
+}
+
 html {
     box-sizing: border-box;
 }
@@ -24,8 +28,15 @@ html {
 body {
     color: var(--clr_primary);
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body, h2, p {
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 a {
@@ -60,6 +71,17 @@ a:hover {
 
 .padding-small {
     padding: 2rem 0;
+}
+
+.padding-big {
+    padding: 4rem 4rem;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 nav {
@@ -136,4 +158,12 @@ nav {
         flex-direction: column;
         text-align: center;
     }
+}
+
+.section-facts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 2rem;
 }
