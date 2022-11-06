@@ -19,6 +19,22 @@
     background-color: var(--bg_clr-red);
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: var(--bg_clr-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--clr_primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr_hover);
+}
+
 html {
     box-sizing: border-box;
 }
